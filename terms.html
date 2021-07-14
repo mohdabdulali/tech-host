@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="Images/logo.png" type="image/gif" sizes="16x16">
+    <title>Tech Host Official</title>
+</head>
+
+<body>
+
+    <!-- navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a _ngcontent-serverapp-c51="" routerlink="/" class="navbar-brand" href="index.html"><img
+                _ngcontent-serverapp-c51="" height="39px" width="39px" src="Images/logo.png" alt="Tech Host"
+                class="brandLogo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+
+                <button class="btn btn-primary" data-toggle="modal" data-target="#loginModal">LogIn</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#singupModal">SingUp</button>
+
+
+            </div>
+
+
+        </div>
+    </nav>
+    <!-- LoginModal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">LogIn</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">LogIn</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SingUp Modal -->
+    <div class="modal fade" id="singupModal" tabindex="-1" role="dialog" aria-labelledby="singupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="singupModalLabel">SingUp</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+
+                        <div class="form-group">
+                            <label for="exampleInputText">Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" placeholder="Enter Your Email"
+                                id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter your Password"
+                                id="exampleInputPassword1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cexampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" placeholder="Enter your Confirm Passworrd"
+                                id="cexampleInputPassword1" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container my-4">
+
+
+
+
+
+
+
+
+
+        <p style="text-align: center;"><span style="font-family: verdana; font-size: x-large;">&nbsp;<span
+                    face="Calibri, sans-serif" style="text-align: center;">Terms and
+                    Conditions</span><span style="text-align: center;">&nbsp;</span></span>
+        </p>
+
+        <p>&nbsp;</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            Welcome to Tech Host Official!</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            These terms and conditions outline the rules and regulations for the use of Tech Host's Website, located at
+            https://www.techhostofficial.com.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            By accessing this website we assume you accept these terms and conditions. Do not continue to use Tech Host
+            Official if you do not agree to take all of the terms and conditions stated on this page.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and
+            all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to
+            the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company.
+            "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer,
+            acceptance and consideration of payment necessary to undertake the process of our assistance to the Client
+            in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision
+            of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use
+            of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are
+            taken as interchangeable and therefore as referring to same.</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">Cookies</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            We employ the use of cookies. By accessing Tech Host Official, you agreed to use cookies in agreement with
+            the Tech Host's Privacy Policy.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used
+            by our website to enable the functionality of certain areas to make it easier for people visiting our
+            website. Some of our affiliate/advertising partners may also use cookies.</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">License</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            Unless otherwise stated, Tech Host and/or its licensors own the intellectual property rights for all
+            material on Tech Host Official. All intellectual property rights are reserved. You may access this from Tech
+            Host Official for your own personal use subjected to restrictions set in these terms and conditions.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            You must not:</p>
+        <ul
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin-bottom: 10px; margin-top: 0px;">
+            <li style="box-sizing: border-box;">Republish material from Tech Host Official</li>
+            <li style="box-sizing: border-box;">Sell, rent or sub-license material from Tech Host Official</li>
+            <li style="box-sizing: border-box;">Reproduce, duplicate or copy material from Tech Host Official</li>
+            <li style="box-sizing: border-box;">Redistribute content from Tech Host Official</li>
+        </ul>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of
+            the&nbsp;<a href="https://www.termsandconditionsgenerator.com/"
+                style="background-color: transparent; box-sizing: border-box; text-decoration-line: none;">Terms And
+                Conditions Generator</a>.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            Parts of this website offer an opportunity for users to post and exchange opinions and information in
+            certain areas of the website. Tech Host does not filter, edit, publish or review Comments prior to their
+            presence on the website. Comments do not reflect the views and opinions of Tech Host,its agents and/or
+            affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the
+            extent permitted by applicable laws, Tech Host shall not be liable for the Comments or for any liability,
+            damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of
+            the Comments on this website.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            Tech Host reserves the right to monitor all Comments and to remove any Comments which can be considered
+            inappropriate, offensive or causes breach of these Terms and Conditions.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            You warrant and represent that:</p>
+        <ul
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin-bottom: 10px; margin-top: 0px;">
+            <li style="box-sizing: border-box;">You are entitled to post the Comments on our website and have all
+                necessary licenses and consents to do so;</li>
+            <li style="box-sizing: border-box;">The Comments do not invade any intellectual property right, including
+                without limitation copyright, patent or trademark of any third party;</li>
+            <li style="box-sizing: border-box;">The Comments do not contain any defamatory, libelous, offensive,
+                indecent or otherwise unlawful material which is an invasion of privacy</li>
+            <li style="box-sizing: border-box;">The Comments will not be used to solicit or promote business or custom
+                or present commercial activities or unlawful activity.</li>
+        </ul>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            You hereby grant Tech Host a non-exclusive license to use, reproduce, edit and authorize others to use,
+            reproduce and edit any of your Comments in any and all forms, formats or media.</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">Hyperlinking to our Content</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            The following organizations may link to our Website without prior written approval:</p>
+        <ul
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin-bottom: 10px; margin-top: 0px;">
+            <li style="box-sizing: border-box;">Government agencies;</li>
+            <li style="box-sizing: border-box;">Search engines;</li>
+            <li style="box-sizing: border-box;">News organizations;</li>
+            <li style="box-sizing: border-box;">Online directory distributors may link to our Website in the same manner
+                as they hyperlink to the Websites of other listed businesses; and</li>
+            <li style="box-sizing: border-box;">System wide Accredited Businesses except soliciting non-profit
+                organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web
+                site.</li>
+        </ul>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            These organizations may link to our home page, to publications or to other Website information so long as
+            the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval
+            of the linking party and its products and/or services; and (c) fits within the context of the linking
+            party’s site.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            We may consider and approve other link requests from the following types of organizations:</p>
+        <ul
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin-bottom: 10px; margin-top: 0px;">
+            <li style="box-sizing: border-box;">commonly-known consumer and/or business information sources;</li>
+            <li style="box-sizing: border-box;">dot.com community sites;</li>
+            <li style="box-sizing: border-box;">associations or other groups representing charities;</li>
+            <li style="box-sizing: border-box;">online directory distributors;</li>
+            <li style="box-sizing: border-box;">internet portals;</li>
+            <li style="box-sizing: border-box;">accounting, law and consulting firms; and</li>
+            <li style="box-sizing: border-box;">educational institutions and trade associations.</li>
+        </ul>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            We will approve link requests from these organizations if we decide that: (a) the link would not make us
+            look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any
+            negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence
+            of Tech Host; and (d) the link is in the context of general resource information.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does
+            not falsely imply sponsorship, endorsement or approval of the linking party and its products or services;
+            and (c) fits within the context of the linking party’s site.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            If you are one of the organizations listed in paragraph 2 above and are interested in linking to our
+            website, you must inform us by sending an e-mail to Tech Host. Please include your name, your organization
+            name, contact information as well as the URL of your site, a list of any URLs from which you intend to link
+            to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a
+            response.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            Approved organizations may hyperlink to our Website as follows:</p>
+        <ul
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin-bottom: 10px; margin-top: 0px;">
+            <li style="box-sizing: border-box;">By use of our corporate name; or</li>
+            <li style="box-sizing: border-box;">By use of the uniform resource locator being linked to; or</li>
+            <li style="box-sizing: border-box;">By use of any other description of our Website being linked to that
+                makes sense within the context and format of content on the linking party’s site.</li>
+        </ul>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            No use of Tech Host's logo or other artwork will be allowed for linking absent a trademark license
+            agreement.</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">iFrames</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            Without prior approval and written permission, you may not create frames around our Webpages that alter in
+            any way the visual presentation or appearance of our Website.</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">Content Liability</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            We shall not be hold responsible for any content that appears on your Website. You agree to protect and
+            defend us against all claims that is rising on your Website. No link(s) should appear on any Website that
+            may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates
+            the infringement or other violation of, any third party rights.</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">Your Privacy</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            Please read Privacy Policy</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">Reservation of Rights</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            We reserve the right to request that you remove all links or any particular link to our Website. You approve
+            to immediately remove all links to our Website upon request. We also reserve the right to amen these terms
+            and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be
+            bound to and follow these linking terms and conditions.</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">Removal of links from our
+                website</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            If you find any link on our Website that is offensive for any reason, you are free to contact and inform us
+            any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you
+            directly.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            We do not ensure that the information on this website is correct, we do not warrant its completeness or
+            accuracy; nor do we promise to ensure that the website remains available or that the material on the website
+            is kept up to date.</p>
+        <h3
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; margin: 0px 0px 18px;">
+            <span style="box-sizing: border-box; font-size: small; font-weight: 700;">Disclaimer</span>
+        </h3>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions
+            relating to our website and the use of this website. Nothing in this disclaimer will:</p>
+        <ul
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin-bottom: 10px; margin-top: 0px;">
+            <li style="box-sizing: border-box;">limit or exclude our or your liability for death or personal injury;
+            </li>
+            <li style="box-sizing: border-box;">limit or exclude our or your liability for fraud or fraudulent
+                misrepresentation;</li>
+            <li style="box-sizing: border-box;">limit any of our or your liabilities in any way that is not permitted
+                under applicable law; or</li>
+            <li style="box-sizing: border-box;">exclude any of our or your liabilities that may not be excluded under
+                applicable law.</li>
+        </ul>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are
+            subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including
+            liabilities arising in contract, in tort and for breach of statutory duty.</p>
+        <p
+            style="background-color: white; box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px 0px 20px;">
+            As long as the website and the information and services on the website are provided free of charge, we will
+            not be liable for any loss or damage of any nature.</p>
+
+    </div>
+
+    <hr class="featurette-divider">
+
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020–21| Created By <span style="font-size:100%;color:red;">&hearts;</span>
+            <a href="https://www.techhostofficial.com">Tech Host Official</a> | · <a href="privacy.html">Privacy</a> ·
+            <a href="terms.html">Terms</a> ·
+        </p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
